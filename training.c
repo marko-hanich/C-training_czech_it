@@ -45,3 +45,24 @@ int main() {
     printf("%d\n",c);
     return 0;
 }
+
+// #include <stdio.h>
+// #include <stdbool.h>
+// int main(void) {
+//     int a;
+//     float b;
+//     printf("Insert two numbers, integer and float, delimiter between numbers is space: ");
+//     scanf("%d %f", &a, &b);
+//     if (scanf("%d %f", &a, &b) == true)
+//     {
+//         printf("Integer is %d;\nFloat is %.3f\n;", a, b);
+//     }
+//     else
+//     {
+//         printf("You write wrong numbers! Please, try again.");
+//         printf("Insert two numbers, integer and float, delimiter between numbers is space: ");
+//         scanf("%d %f", &a, &b);
+//     }
+
+//     return 0;
+// }
